@@ -8,7 +8,7 @@ Parameters:
 
   EksClusterName:
     Type: String
-    Description: TODO - The name of the EKS cluster created
+    Description: eksctl-demo -- The name of the EKS cluster created
     Default: eksctl-demo
     MinLength: 1
     MaxLength: 100
@@ -40,7 +40,7 @@ Parameters:
 
   GitHubUser:
     Type: String
-    Default: SudKul
+    Default: Aro1914
     Description: TODO - GitHub username or organization
     MinLength: 3
     MaxLength: 100
@@ -77,7 +77,7 @@ Metadata:
           default: CodeBuild
         Parameters:
           - CodeBuildDockerImage
-      - Label:
+      - Label
           default: IAM
         Parameters:
           - KubectlRoleName
